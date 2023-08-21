@@ -44,6 +44,11 @@ The Gradio app provides an intuitive interface for users to:
    - Upload a video and wait for the model to process it.
    - Review the results to see if an accident was detected.
 
+## Demo
+
+[assets/demo.png]
+[assets/demo2.png]
+
 ## Contributing
 
 Feel free to submit issues, fork the repository and send pull requests!
