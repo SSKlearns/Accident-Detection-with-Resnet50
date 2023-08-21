@@ -1,11 +1,12 @@
 # Accident Detection using ResNet-50 and Gradio
 
-This repository contains a Gradio app that allows users to upload a video and detects if there was an accident in the video. The model behind this application is based on the ResNet-50 architecture and has undergone several optimization processes to ensure swift and accurate detections.
+This repository contains a Gradio app that allows users to upload a video and detects if there was an accident in the video. The model behind this application is based on the ResNet-50 architecture and has undergone several optimization processes, to ensure swift and accurate detections.
 
 ## Model Training and Optimization
 
 1. **Initial Training with ResNet-50**:
     - Trained on ResNet-50 architecture for 5 epochs.
+    - Utilized resources available on Intel Dev Cloud.
     
 2. **Optimization with IPEX**:
     - Optimized the model using Intel's PyTorch extension, IPEX, to improve the performance on Intel hardware.
@@ -22,7 +23,8 @@ This repository contains a Gradio app that allows users to upload a video and de
 The Gradio app provides an intuitive interface for users to:
 - Upload a video.
 - Process the video through the optimized model.
-- Get instant feedback on whether an accident was detected in the uploaded video.
+- Get a feedback on whether an accident was detected in the uploaded video.
+- If over 10% of the video frames consisted of an accident, "Accident" will be declared, else "No Accident".
 
 ## Installation and Usage
 
