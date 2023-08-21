@@ -46,8 +46,10 @@ The Gradio app provides an intuitive interface for users to:
 
 ## Demo
 
-[assets/demo.png]
-[assets/demo2.png]
+<p align="center">
+<img src="assets/demo.png" alt="Demo Image 1" width="640" height="360">
+<img src="assets/demo2.png" alt="Demo Image 2" width="640" height="360">
+</p>
 
 ## Contributing
 
